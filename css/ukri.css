@@ -1,23 +1,3 @@
-/*
-Innovate UK
-#8A1A9B	dark
-#BE2BBB	light
-
-UKRI
-#307FE2	blue
-#303030	grey
-
-UKRI
-#FF9E1B	orange
-#F6BE00	yellow
-#6CC24A	green
-#00B388	emerald
-#00C1D5	cyan
-#307FE2	blue
-#B14EB5	purple
-#E04E39	red
-*/
-
 html {
 font-family: "Roboto", sans-serif;
  color: blue;
@@ -45,3 +25,24 @@ color: #6CC24A;
 .n {
 color: #E04E39;
 }
+
+/*
+Innovate UK
+#8A1A9B	dark
+#BE2BBB	light
+
+UKRI
+#307FE2	blue
+#303030	grey
+
+UKRI
+#FF9E1B	orange
+#F6BE00	yellow
+#6CC24A	green
+#00B388	emerald
+#00C1D5	cyan
+#307FE2	blue
+#B14EB5	purple
+#E04E39	red
+*/
+
