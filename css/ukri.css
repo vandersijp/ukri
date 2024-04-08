@@ -1,31 +1,3 @@
-html {
-font-family: "Roboto", sans-serif;
- color: blue;
-}
-h2 {
-color: #8A1A9B;
-page-break-before: always;
-}
-h3 {
-color: #307FE2;
-page-break-before: always;
-}
-h4 {
-color: #8A1A9B;
-}
-h5 {
- color: #BE2BBB;
-}
-h6 {
- color: #303030;
-}
-.p {
-color: #6CC24A;
-}
-.n {
-color: #E04E39;
-}
-
 /*
 Innovate UK
 #8A1A9B	dark
@@ -46,3 +18,37 @@ UKRI
 #E04E39	red
 */
 
+html {
+	font-family: "Roboto", sans-serif;
+	color: blue;
+}
+
+h2 {
+	color: #8A1A9B;
+	page-break-before: always;
+}
+
+h3 {
+	color: #307FE2;
+	page-break-before: always;
+}
+
+h4 {
+	color: #8A1A9B;
+}
+
+h5 {
+	color: #BE2BBB;
+}
+
+h6 {
+	color: #303030;
+}
+
+.p {
+	color: #6CC24A;
+}
+
+.n {
+	color: #E04E39;
+}
