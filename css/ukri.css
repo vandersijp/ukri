@@ -21,32 +21,31 @@ UKRI {
 
 html {
 	font-family: "Roboto", sans-serif;
-	color: blue;
 }
 
 h2 {
-	color: #8A1A9B;
+	color: #8A1A9B;	/* dark */
 	page-break-before: always;
 }
 
 h3 {
-	color: #307FE2;
+	color: #6CC24A;	/* green */
 	page-break-before: always;
 }
 
 h4 {
-	color: #8A1A9B;
+	color: #307FE2;	/* blue */
 }
 
 h5 {
-	color: #BE2BBB;
+	color: #303030;	/* grey */
 }
 
 h6 {
-	color: #303030;
+	color: #303030;	/* grey */
 }
 
-p, h5 {
+p, h5, h6 {
 	font-size: 11 px;
 }
 
