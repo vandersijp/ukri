@@ -1,22 +1,23 @@
-/*
-Innovate UK
-#8A1A9B	dark
-#BE2BBB	light
+Innovate UK {
+	color: #8A1A9B;	/* dark */
+	color: #BE2BBB;	/* light */
+}
 
-UKRI
-#307FE2	blue
-#303030	grey
+UKRI {
+	color: #307FE2;	/* blue */
+	color: #303030;	/* grey */
+}
 
-UKRI
-#FF9E1B	orange
-#F6BE00	yellow
-#6CC24A	green
-#00B388	emerald
-#00C1D5	cyan
-#307FE2	blue
-#B14EB5	purple
-#E04E39	red
-*/
+UKRI {
+	color: #FF9E1B;	/* orange */
+	color: #F6BE00;	/* yellow */
+	color: #6CC24A;	/* green */
+	color: #00B388;	/* emerald */
+	color: #00C1D5;	/* cyan */
+	color: #307FE2;	/* blue */
+	color: #B14EB5;	/* purple */
+	color: #E04E39;	/* red */
+}
 
 html {
 	font-family: "Roboto", sans-serif;
@@ -43,6 +44,10 @@ h5 {
 
 h6 {
 	color: #303030;
+}
+
+p, h5 {
+	font-size: 11 px;
 }
 
 .p {
