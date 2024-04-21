@@ -37,12 +37,13 @@ h4 {
 	color: #307FE2;	/* blue */
 }
 
-h5 {
+h5, h6 {
 	color: #303030;	/* grey */
+	display: inline;
 }
 
-h6 {
-	color: #303030;	/* grey */
+h5:after {
+  content: " \2014 ";	
 }
 
 p, h5, h6 {
