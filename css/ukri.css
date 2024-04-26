@@ -1,0 +1,109 @@
+Innovate UK {
+	color: #8A1A9B;	/* dark */
+	color: #BE2BBB;	/* light */
+}
+
+UKRI {
+	color: #307FE2;	/* blue */
+	color: #303030;	/* grey */
+}
+
+UKRI {
+	color: #FF9E1B;	/* orange */
+	color: #F6BE00;	/* yellow */
+	color: #6CC24A;	/* green */
+	color: #00B388;	/* emerald */
+	color: #00C1D5;	/* cyan */
+	color: #307FE2;	/* blue */
+	color: #B14EB5;	/* purple */
+	color: #E04E39;	/* red */
+}
+
+
+
+html {
+	font-family: "Roboto", sans-serif;
+	background: #F0F0F0;
+}
+
+body {
+	background: #FdFdFd;
+	max-width: 600px;
+	margin: auto;
+	padding: 3em;
+	border: 2px solid #E0E0E0;
+}
+
+h2 {
+	color: #8A1A9B;	/* dark */
+	page-break-before: always;
+}
+
+h3 {
+	color: #6CC24A;	/* green */
+	page-break-before: always;
+}
+
+h4 {
+	color: #307FE2;	/* blue */
+}
+
+h5 {
+	color: #303030;	/* grey */
+}
+
+h6 {
+	color: #303030;	/* grey */
+}
+
+li::first-letter {
+	text-transform: uppercase;
+}
+
+
+ol, ul {
+padding-inline-start: 20px;
+}
+
+
+
+img {
+margin: 1em;
+}
+
+p, li, h5, h6 {
+	font-size: 10pt;
+}
+
+li::marker {
+	color: #303030;	/* grey */
+}
+
+a:link {
+	color: #307FE2;	/* blue */
+	text-decoration: none;
+}
+
+a:visited {
+	color: #303030;	/* grey */
+}
+
+a:visited {
+  color: grey;
+}
+
+h5, h5+p {
+	display: inline;
+}
+
+h5+p::before {
+	content: "\00a0\2014\00a0";
+}
+
+.cap::after {
+	content: ".";
+}
+
+.cap::first-letter {
+	text-transform: uppercase;
+}
