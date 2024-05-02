@@ -6,9 +6,8 @@
 
 The objective is to automatically map project descriptions against a set of narratives (i.e. 10 areas and 3 imperatives).
 
-Each narrative is syntactically structured with a header hierarchy to improve the accuracy of the mapping. The content is identical to the one published in www.ukri.org/reimagine-manufacturing.
-
-Each project description consists of a **title** and the **public description** as submitted during their application.
+- Each narrative is syntactically structured with a header hierarchy to improve the accuracy of the mapping. The content is identical to the one published in www.ukri.org/reimagine-manufacturing.
+- Each project description consists of a **title** and the **public description** as submitted during their application.
 
 The 'mapping' illustrates how relevant a narrative relates to a project. It is a relative measure and could be reported for **each project** as:
 
