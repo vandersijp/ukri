@@ -14,7 +14,8 @@ The 'mapping' represents how relevant a narrative relates to a project. It is a 
 
 narrative	relevance
 
------	-----	-----
+
+narrative | relevance
 
 c1	 |	12.7
 
@@ -36,7 +37,6 @@ e4	 |	31.8
 
 e5	 |	72.9
 
------	-----	-----
 
 s1	 |	98.3
 
