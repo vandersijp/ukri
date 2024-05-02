@@ -17,9 +17,8 @@ narrative	relevance
 
 narrative | relevance
 
-c1	 |	12.7
-
-c2	 |	93.8
+- c1	 |	12.7
+- c2	 |	93.8
 
 c3	 |	64.9
 
