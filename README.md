@@ -1,5 +1,7 @@
-Author: Chaco van der SIjp
-Date: 1 May 2024
+**Author:** Chaco van der SIjp
+**Date:** 1 May 2024
+
+##Oblective##
 
 The objective is to automatically map projects against 13 narratives (i.e. 10 areas and 3 inperatives).
 
@@ -7,7 +9,7 @@ Each narrative is syntactically structured with a header hiearchy to improve the
 
 Each project description consists of a title and the public description as submitted during their application.
 
-The 'mapping' represents how relevant a narrative relates to a project. It is a relative measure and could be reported for eaxch projected as:
+The 'mapping' represents how relevant a narrative relates to a project. It is a relative measure and could be reported for each projected as:
 
 narrative	relevance
 -----	-----	-----
