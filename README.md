@@ -10,7 +10,7 @@ Each narrative is syntactically structured with a header hierarchy to improve th
 
 Each project description consists of a title and the public description as submitted during their application.
 
-The 'mapping' represents how relevant a narrative relates to a project. It is a relative measure and could be reported for **each project** as:
+The 'mapping' illustrates how relevant a narrative relates to a project. It is a relative measure and could be reported for **each project** as:
 
 
 **narrative → relevance**
