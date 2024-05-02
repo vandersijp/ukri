@@ -32,6 +32,10 @@ body {
 	border: 2px solid #E0E0E0;
 }
 
+form {
+	text-align: center;
+}
+
 h2 {
 	color: #8A1A9B;	/* dark */
 	page-break-before: always;
