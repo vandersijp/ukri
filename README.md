@@ -4,7 +4,7 @@
 
 ## Objective
 
-The objective is to automatically map projects against 13 narratives (i.e. 10 areas and 3 imperatives).
+The objective is to automatically map project descriptions against a set of narratives (i.e. 10 areas and 3 imperatives).
 
 Each narrative is syntactically structured with a header hierarchy to improve the accuracy of the mapping. The content is identical to the one published in www.ukri.org/reimagine-manufacturing.
 
