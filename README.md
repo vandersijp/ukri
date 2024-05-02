@@ -33,4 +33,4 @@ The 'mapping' illustrates how relevant a narrative relates to a project. It is a
 - s3 → 36.3
 
 
-It is important that all relevances have been consistently callibrated . Both between the 10 areas, as well as between the 3 imperatives.
+It is important that all relevances have been consistently callibrated. Both between the 10 areas, between the 3 imperatives, as well as between all projects.
