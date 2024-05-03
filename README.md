@@ -1,7 +1,3 @@
-**Author:** Chaco van der SIjp
-
-**Date:** 1 May 2024
-
 ## Objective
 
 The objective is to test a proof of concept to automatically map project descriptions against a set of narratives (i.e. 10 areas and 3 imperatives). The 'mapping' aims to illustrate how relevant a project is to each of the narratives.
@@ -9,7 +5,7 @@ The objective is to test a proof of concept to automatically map project descrip
 - Each narrative is **syntactically structured** with a header hierarchy to improve the accuracy of the mapping. Their content is a verbatim copy from the Innovate UK vision for materials and manufacturing as published on www.ukri.org/reimagine-manufacturing.
 - Each project description consists of a **title** and the **public description** as submitted during their application. In the future, other project information will be used to improve the mapping.
 
-Relevance is a relative measure and could be reported for **each project** as:
+Relevance is a relative measure and could be reported for each individual project as:
 
 
 **narrative → relevance**
@@ -32,4 +28,4 @@ Relevance is a relative measure and could be reported for **each project** as:
 - s3 → 36.3
 
 
-It is important that all relevances have been consistently calibrated. Both between the 10 areas, between the 3 imperatives, as well as between all projects.
+It is critically important that all relevances are consistently calibrated between all narratives and all projects.
