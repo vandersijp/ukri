@@ -29,3 +29,7 @@ Relevance is a relative measure and could be reported for each individual projec
 
 
 It is critically important that all relevances are consistently calibrated between all narratives and all projects.
+
+**Author:**  Chaco van der Sijp
+
+**Date:**  3 May 2024
