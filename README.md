@@ -1,6 +1,6 @@
 ## Objective
 
-The objective is to test a proof of concept to automatically map project descriptions against a set of narratives (i.e. 10 areas and 3 imperatives). The 'mapping' aims to illustrate how relevant a project is to each of the narratives.
+The objective is to test a proof of concept to automate the mapping of 10 projects against a set of 13 narratives (i.e. 10 areas and 3 imperatives). The 'mapping' helps to analyse a project portfolio by illustrating how relevant each project is to each of the narratives.
 
 - Each narrative is **syntactically structured** with a header hierarchy to improve the accuracy of the mapping. Their content is a verbatim copy from the Innovate UK vision for materials and manufacturing as published on www.ukri.org/reimagine-manufacturing.
 - Each project description consists of a **title** and the **public description** as submitted during their application. In the future, other project information will be used to improve the mapping.
