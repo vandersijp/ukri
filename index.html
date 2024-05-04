@@ -1,128 +1,109 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, min-width=800"/>
-
 <script>
-
-function changeHrefForAnchorsById (id, folder, ext) {
-  const els = document.getElementById(id).getElementsByTagName("a");
-  for (let item of els) {
-    let bName = baseName(item.getAttribute("href"));
-    let newPath = buildPath(bName, folder, ext);
-    item.setAttribute("href", newPath);
-    let xx = item.getAttribute("href");
-    console.log(xx);
-  }
-}
-
-function baseName(path) {
-  return path.split("/").reverse()[0].split(".")[0];
-}
-
-function buildPath(baseName, folder, ext) {
-  return folder + "/" + baseName + "." + ext;
-}
-
-document.getElementById("narr").onclick = function () {
-  changeHrefForAnchorsById ("anchors", "narratives", "html");
-};
-
-document.getElementById("lm").onclick = function () {
-  changeHrefForAnchorsById ("anchors", "logic models", "png");
-};
-
-document.getElementById("tmap").onclick = function () {
-  changeHrefForAnchorsById ("anchors", "tmaps", "png");
-};
-	
+   function changeHrefForAnchorsById (id, folder, ext) {
+     const els = document.getElementById(id).getElementsByTagName("a");
+     for (let item of els) {
+       let bName = baseName(item.getAttribute("href"));
+       let newPath = buildPath(bName, folder, ext);
+       item.setAttribute("href", newPath);
+       let xx = item.getAttribute("href");
+       console.log(xx);
+     }
+   }
+   
+   function baseName(path) {
+     return path.split("/").reverse()[0].split(".")[0];
+   }
+   
+   function buildPath(baseName, folder, ext) {
+     return folder + "/" + baseName + "." + ext;
+   }
+   
+   document.getElementById("narr").onclick = function () {
+     changeHrefForAnchorsById ("anchors", "narratives", "html");
+   };
+   
+   document.getElementById("lm").onclick = function () {
+     changeHrefForAnchorsById ("anchors", "logic models", "png");
+   };
+   
+   document.getElementById("tmap").onclick = function () {
+     changeHrefForAnchorsById ("anchors", "tmaps", "png");
+   };
+   	
 </script>
-
 <link rel="stylesheet" type="text/css" href="css/ukri.css">
 <html>
    <body>
-	   
       <h2>
          Content
       </h2>
+      <div>
+         <h4>
+            Strategic imperatives
+         </h4>
+         <ul>
+            <li>
+               <a href="narratives/s1 net zero.html">net zero and resource efficient</a>
+            </li>
+            <li>
+               <a href="narratives/s2 resilient.html">resilient and responsive</a>
+            </li>
+            <li>
+               <a href="narratives/s3 advanced.html">technologically advanced and digital</a>
+            </li>
+         </ul>
+      </div>
+      
+         <div style="display: inline-flex;">
+            <div style="margin-right: 2em;">
+               <h4>
+                  Core areas
+               </h4>
+               <ol>
+                  <li>
+                     <a href="narratives/c1 materials.html">materials</a>
+                  </li>
+                  <li>
+                     <a href="narratives/c2 design.html">design</a>
+                  </li>
+                  <li>
+                     <a href="narratives/c3 supply chains.html">supply chains</a>
+                  </li>
+                  <li>
+                     <a href="narratives/c4 production.html">production</a>
+                  </li>
+                  <li>
+                     <a href="narratives/c5 in use & reuse.html">in use & reuse</a>
+                  </li>
+               </ol>
+            </div>
+            <div style="margin-right: 2em;">
+               <h4>
+                  Enabling areas
+               </h4>
+               <ol>
+                  <li>
+                     <a href="narratives/e1 energy.html">energy</a>
+                  </li>
+                  <li>
+                     <a href="narratives/e2 regulations & policy.html">regulations & policy</a>
+                  </li>
+                  <li>
+                     <a href="narratives/e3 skills.html">skills</a>
+                  </li>
+                  <li>
+                     <a href="narratives/e4 relations.html">relations</a>
+                  </li>
+                  <li>
+                     <a href="narratives/e5 value models.html">value models</a>
+                  </li>
+               </ol>
+            </div>
+         </div>
          <div>
-            <h4>
-               Strategic imperatives
-            </h4>
-            <ul>
-               <li>
-                  <a href="narratives/s1 net zero.html">net zero and resource efficient</a>
-               </li>
-               <li>
-                  <a href="narratives/s2 resilient.html">resilient and responsive</a>
-               </li>
-               <li>
-                  <a href="narratives/s3 advanced.html">technologically advanced and digital</a>
-               </li>
-            </ul>
+            <img src="assets/disk.png" alt="activity model" width="250" height="250">
          </div>
-
-<div>
-
-<input type="radio" id="narr" name="but" value="n">
-<label for="narr">narrative</label><br>
-
-<input type="radio" id="lm" name="but" value="l">
-<label for="lm">logic model</label><br>
-
-<input type="radio" id="tmap" name="but" value="t">
-<label for="tmap">T-map</label>
-
-	
-</div>
-
-	   <div id="anchors" style="display: inline-flex;">
-         <div style="margin-right: 2em;">
-            <h4>
-               Core areas
-            </h4>
-            <ol>
-               <li>
-                  <a href="narratives/c1 materials.html">materials</a>
-               </li>
-               <li>
-                  <a href="narratives/c2 design.html">design</a>
-               </li>
-               <li>
-                  <a href="narratives/c3 supply chains.html">supply chains</a>
-               </li>
-               <li>
-                  <a href="narratives/c4 production.html">production</a>
-               </li>
-               <li>
-                  <a href="narratives/c5 in use & reuse.html">in use & reuse</a>
-               </li>
-            </ol>
-         </div>
-         <div style="margin-right: 2em;">
-            <h4>
-               Enabling areas
-            </h4>
-            <ol>
-               <li>
-                  <a href="narratives/e1 energy.html">energy</a>
-               </li>
-               <li>
-                  <a href="narratives/e2 regulations & policy.html">regulations & policy</a>
-               </li>
-               <li>
-                  <a href="narratives/e3 skills.html">skills</a>
-               </li>
-               <li>
-                  <a href="narratives/e4 relations.html">relations</a>
-               </li>
-               <li>
-                  <a href="narratives/e5 value models.html">value models</a>
-               </li>
-            </ol>
-         </div>
-      </div>
-	<div>
-	      <img src="assets/disk.png" alt="activity model" width="250" height="250">
-      </div>
-
       <div>
          <h4>
             Selected projects
@@ -160,7 +141,6 @@ document.getElementById("tmap").onclick = function () {
             </li>
          </ol>
       </div>
-
       <embed type="text/html" src="snippets/footer.html">
    </body>
 </html>
