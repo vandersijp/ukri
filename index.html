@@ -21,6 +21,10 @@ function buildPath(baseName, folder, ext) {
   return folder + "/" + baseName + "." + ext;
 }
 
+document.getElementById("narr").onclick = function () {
+  changeHrefForAnchorsById ("anchors", "narratives", "html");
+};
+
 document.getElementById("lm").onclick = function () {
   changeHrefForAnchorsById ("anchors", "logic models", "png");
 };
@@ -28,11 +32,6 @@ document.getElementById("lm").onclick = function () {
 document.getElementById("tmap").onclick = function () {
   changeHrefForAnchorsById ("anchors", "tmaps", "png");
 };
-
-document.getElementById("narr").onclick = function () {
-  changeHrefForAnchorsById ("anchors", "narratives", "html");
-};
-
 	
 </script>
 
@@ -62,7 +61,7 @@ document.getElementById("narr").onclick = function () {
          </div>
 
 <div>
-	   <label><input type="radio" id="narr" value="narr"/>narrative</label>
+<label><input type="radio" id="narr" value="narr"/>narrative</label>
 <label><input type="radio" id="lm" value="lm"/>logic model</label>
 <label><input type="radio" id="tmap" value="tmao"/>T-map</label>
 </div>
