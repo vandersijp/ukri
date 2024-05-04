@@ -2,7 +2,7 @@
 
 <script>
 
-	function changeHrefForAnchorsById (id, folder, ext) {
+function changeHrefForAnchorsById (id, folder, ext) {
   const els = document.getElementById(id).getElementsByTagName("a");
   for (let item of els) {
     let bName = baseName(item.getAttribute("href"));
@@ -42,8 +42,7 @@ document.getElementById("tmap").onclick = function () {
       <h2>
          Content
       </h2>
-
-	      <div>
+         <div>
             <h4>
                Strategic imperatives
             </h4>
@@ -61,9 +60,17 @@ document.getElementById("tmap").onclick = function () {
          </div>
 
 <div>
-<label><input type="radio" id="narr" value="narr"/>narrative</label>
-<label><input type="radio" id="lm" value="lm"/>logic model</label>
-<label><input type="radio" id="tmap" value="tmao"/>T-map</label>
+
+<input type="radio" id="narr" name="but" value="n">
+<label for="narr">narrative</label><br>
+
+<input type="radio" id="lm" name="but" value="l">
+<label for="lm">logic model</label><br>
+
+<input type="radio" id="tmap" name="but" value="t">
+<label for="tmap">T-map</label>
+
+	
 </div>
 
 	   <div id="anchors" style="display: inline-flex;">
