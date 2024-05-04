@@ -1,5 +1,41 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, min-width=800"/>
 
+<script>
+
+	function changeHrefForAnchorsById (id, folder, ext) {
+  const els = document.getElementById(id).getElementsByTagName("a");
+  for (let item of els) {
+    let bName = baseName(item.getAttribute("href"));
+    let newPath = buildPath(bName, folder, ext);
+    item.setAttribute("href", newPath);
+    let xx = item.getAttribute("href");
+    console.log(xx);
+  }
+}
+
+function baseName(path) {
+  return path.split("/").reverse()[0].split(".")[0];
+}
+
+function buildPath(baseName, folder, ext) {
+  return folder + "/" + baseName + "." + ext;
+}
+
+document.getElementById("lm").onclick = function () {
+  changeHrefForAnchorsById ("anchors", "logic models", "png");
+};
+
+document.getElementById("tmap").onclick = function () {
+  changeHrefForAnchorsById ("anchors", "tmaps", "png");
+};
+
+document.getElementById("narr").onclick = function () {
+  changeHrefForAnchorsById ("anchors", "narratives", "html");
+};
+
+	
+</script>
+
 <link rel="stylesheet" type="text/css" href="css/ukri.css">
 <html>
    <body>
@@ -25,7 +61,12 @@
             </ul>
          </div>
 
-	   
+<div>
+	   <label><input type="radio" id="narr" value="narr"/>narrative</label>
+<label><input type="radio" id="lm" value="lm"/>logic model</label>
+<label><input type="radio" id="tmap" value="tmao"/>T-map</label>
+</div>div>
+
 	   <div style="display: inline-flex;">
          <div style="margin-right: 2em;">
             <h4>
