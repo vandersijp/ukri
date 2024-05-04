@@ -69,7 +69,7 @@ img {
 margin: 1em;
 }
 
-p, li, h5, h6 {
+p, li, h5, h6, label {
 	font-size: 10pt;
 }
 
