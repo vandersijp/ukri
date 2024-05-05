@@ -78,6 +78,10 @@ p, li, h5, h6, label {
 	font-size: 10pt;
 }
 
+li + li {
+	margin-top: 5px;
+  }
+
 li::marker {
 	color: #303030;	/* grey */
 	font-size: 80%;
