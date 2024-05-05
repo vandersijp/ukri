@@ -78,8 +78,8 @@ p, li, h5, h6, label {
 	font-size: 10pt;
 }
 
-li li {
-	margin-top: 15px;
+li {
+	margin-top: 12px;
   }
 
 li::marker {
