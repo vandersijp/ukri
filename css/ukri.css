@@ -38,10 +38,11 @@ img {
 	max-width: 100%;
 }
 
-zzdiv:has(+ img) {
-	max-height: 50%;
-	max-width: 50%;
-	text-align: center;
+div:has(+ img) {
+	border: red solid 1px;
+	zzmax-height: 50%;
+	zzmax-width: 50%;
+	zztext-align: center;
   }
 
 form {
