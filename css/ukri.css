@@ -37,7 +37,7 @@ img {
 	max-width: calc(100% - 1.5em);
 }
 
-div:has(+ img) {
+zzdiv:has(+ img) {
 	max-height: 50%;
 	max-width: 50%;
 	text-align: center;
