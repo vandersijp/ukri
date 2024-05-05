@@ -26,15 +26,13 @@ html {
 
 body {
 	background: #FdFdFd;
-	max-width: 600px;
 	margin: auto;
 	padding: 3em;
 	border: 2px solid #E0E0E0;
 }
 
-img {
+body, img {
 	max-width: 600px;
-	margin: 1em;
 }
 
 form {
