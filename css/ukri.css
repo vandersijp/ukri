@@ -78,7 +78,7 @@ p, li, h5, h6, label {
 	font-size: 10pt;
 }
 
-li + li {
+li {
 	margin-top: 15px;
   }
 
