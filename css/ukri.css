@@ -32,10 +32,16 @@ body {
 	max-width: 600px;
 }
 
-img {
-	max-height:90%;
-	max-width:90%;
+zzimg {
+	max-height:100%;
+	max-width:100%;
 }
+
+div:has(+ img) {
+	max-height: 50%;
+	max-width: 50%;
+	text-align: center;
+  }
 
 form {
 	text-align: center;
