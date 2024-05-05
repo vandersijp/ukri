@@ -33,10 +33,13 @@ body {
 }
 
 img {
-	max-height:90%;
-	max-width:90%;
-	text-align: center;
+	max-height:100%;
+	max-width:100%;
 }
+
+div:has(+ img) {
+	max-height:50%;
+  }
 
 form {
 	text-align: center;
