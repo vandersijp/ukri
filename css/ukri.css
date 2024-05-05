@@ -37,6 +37,10 @@ img {
 	max-width:100%;
 }
 
+div:has(+ img) {
+	max-height:50%;
+  }
+
 form {
 	text-align: center;
 	font-size: 80%;
