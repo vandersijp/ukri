@@ -33,8 +33,8 @@ body {
 }
 
 img {
-	max-height: 95%;
-	max-width: 95%;
+	max-height: 90%;
+	max-width: 90%;
 }
 
 zzdiv:has(+ img) {
